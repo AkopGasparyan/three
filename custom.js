@@ -31,9 +31,9 @@ function age() {
         clearly = "VAX";
     }
     
-    else if (y > 100 OR y <0) {
+    else if (y > 100 || y <0) {
     
-        clearly = "Enter correct DOB";
+        clearly = "Enter correct DOB".fontcolor("red");
     
     } 
     
