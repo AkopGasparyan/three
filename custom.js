@@ -29,6 +29,10 @@ function age() {
 
     if (y > 4 && y <12) {
         clearly = "VAX";
+    } else if (y > 100 && y <0) {
+    
+        clearly = "Enter correct DOB".fontcolor("red");
+    
     } else {
         clearly = "STOP".fontcolor("red");
     }
