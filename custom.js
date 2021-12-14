@@ -33,7 +33,7 @@ function age() {
     
     else if (y > 100 OR y <0) {
     
-        clearly = "Enter correct DOB".fontcolor("red");
+        clearly = "Enter correct DOB";
     
     } 
     
